@@ -14,17 +14,23 @@
 	<body>
 		<div class="header">
 			<h1>Study schedule</h1>
-			<form action="" method="get">
-				<div class="nav">
-					<label><b>Student Name</b></label>
-					<input type="text" required name="name" autofocus />
-					<label><b>Study Date</b></label>
-					<input type="date" required name="date" />
-					<input type="submit" value="Save" />
+		
 				</div>
 			</form>
 		</div>
-
+			<div id="hello" class="main">
+				<form >
+					<div id="hello" class="nav">
+						<label><b>Student Name</b></label>
+						<input id="input1" type="text" name="name" />
+						<!-- <label><b>date</b></label>
+						<input id="input2" type="date" name="name" required/> -->
+						<input id="btn1" type="button" value="save" />
+				</div>
+				<hr>
+				<div><b id="b1"></b> </div>
+				
+			</div>
 		<div class="main2">
 			<form action="" method="get" target="_blank">
 				<div class="nav2">
@@ -34,7 +40,7 @@
 					<br />
 					<br />
 					<label for="Subject"><b> Subject</b></label>
-					<select name="Subject">
+					<select id="select1" name="Subject">
 						<option value="">--Please choose--</option>
 						<option value="Quran"><b>Quran</b></option>
 						<option value="Arabic"><b>Arabic</b></option>
@@ -55,14 +61,16 @@
 					<label><b>Score (between 0 and 100 % done):</b></label>
 					<input
 						type="range"
+						id="range1"
 						name="range"
 						min="0"
 						max="100"
 						step="5"
 						value="0"
-					/>
-
-					<br />
+						aria-label="select pen size" /><span class="output1"></span>
+				
+				<hr>
+					
 					<label for="Subject"><b> Subject</b></label>
 					<select name="Subject">
 						<option value="">--Please choose--</option>
@@ -87,15 +95,17 @@
 					<label><b> Score (between 0 and 100 % done):</b></label>
 					<input
 						type="range"
+						id="range2"
 						name="range"
 						min="0"
 						max="100"
 						step="5"
 						value="0"
-					/>
+						aria-label="select pen size" /><span class="output2"></span>
 					<!-- <input id="3" type="checkbox" name="name" autofocus />
 					<label for="3"><b> Math</b></label> -->
-					<br />
+					
+				<hr>
 					<label for="Subject"><b> Subject</b></label>
 					<select name="Subject">
 						<option value="">--Please choose--</option>
@@ -118,15 +128,18 @@
 					<label><b> Score (between 0 and 100 % done):</b></label>
 					<input
 						type="range"
+						id="range3"
 						name="range"
 						min="0"
 						max="100"
 						step="5"
 						value="0"
-					/>
+						aria-label="select pen size" /><span class="output3"></span>
+
 					<!-- <input id="8" type="checkbox" name="name" autofocus />
 					<label for="8"><b>Science </b></label> -->
-					<br />
+					
+				<hr>
 					<label for="Subject"><b> Subject</b></label>
 					<select name="Subject">
 						<option value="">--Please choose--</option>
@@ -150,14 +163,16 @@
 					<input
 						type="range"
 						name="range"
+						id="range4"
 						min="0"
 						max="100"
 						step="5"
 						value="0"
-					/>
+						aria-label="select pen size" /><span class="output4"></span>
 					<!-- <input id="4" type="checkbox" name="name" autofocus />
 					<label for="4"><b>English </b></label> -->
-					<br />
+				
+				<hr>
 					<label for="Subject"><b> Subject</b></label>
 					<select name="Subject">
 						<option value="">--Please choose--</option>
@@ -181,15 +196,18 @@
 					<input
 						type="range"
 						name="range"
+						id="range5"
 						min="0"
 						max="100"
 						step="5"
 						value="0"
-					/>
+						aria-label="select pen size" /><span class="output5"></span>
+
 
 					<!-- <input id="5" type="checkbox" name="name" autofocus />
 					<label for="5"><b>Social Studies </b></label> -->
-					<br />
+					
+				<hr>
 					<label for="Subject"><b> Subject</b></label>
 					<select name="Subject">
 						<option value="">--Please choose--</option>
@@ -213,15 +231,18 @@
 					<input
 						type="range"
 						name="range"
+						id="range6"
 						min="0"
 						max="100"
 						step="5"
 						value="0"
-					/>
+						aria-label="select pen size" /><span class="output6"></span>
 
 					<!-- <input id="6" type="checkbox" name="name" autofocus />
 					<label for="6"><b>مهارات </b></label> -->
-					<br />
+				
+				<hr>
+
 					<label for="Subject"><b> Subject</b></label>
 					<select name="Subject">
 						<option value="">--Please choose--</option>
@@ -245,14 +266,16 @@
 					<input
 						type="range"
 						name="range"
+						id="range7"
 						min="0"
 						max="100"
 						step="5"
 						value="0"
-					/>
+						aria-label="select pen size" /><span class="output7"></span>
 					<!-- <input id="7" type="checkbox" name="name" autofocus />
 					<label for="7"><b>تكنولوجيا </b></label> -->
-					<br />
+					
+				<hr>
 					<label for="Subject"><b> Subject</b></label>
 					<select name="Subject">
 						<option value="">--Please choose--</option>
@@ -276,14 +299,16 @@
 					<input
 						type="range"
 						name="range"
+						id="range8"
 						min="0"
 						max="100"
 						step="5"
 						value="0"
-					/>
+						aria-label="select pen size" /><span class="output8"></span>
 					<!-- <input id="9" type="checkbox" name="name" autofocus />
 					<label for="9"><b>دين </b></label> -->
-					<br />
+					
+				<hr>
 					<label for="Subject"><b> Subject</b></label>
 					<select name="Subject">
 						<option value="">--Please choose--</option>
@@ -307,15 +332,18 @@
 					<input
 						type="range"
 						name="range"
+						id="range9"
 						min="0"
 						max="100"
 						step="5"
 						value="0"
-					/>
-					<br />
-					<input class="ip" type="reset" value="reset" />
+						aria-label="select pen size" /><span class="output9"></span>
+					
+				<hr>
+				<br>
+					<input class="ip1" type="reset" value="reset" />
 
-					<input class="ip" type="submit" value="Save" />
+					<input class="ip2" type="button" value="Save" /> <span class="bttoutput"></span>
 					<!-- <ul>
 						<li>
 							<label for="1"><b>Subject Name</b></label>
@@ -373,29 +401,7 @@
 				</div>
 			</form>
 		</div>
-		<section class="main">
-			<div>
-				<h2>
-					Hello, Iam Dr Ahmed Mohamed Samy<br /><span>Web Developer</span>
-				</h2>
-				<h3>i build apps and websites</h3>
-				<a href="#projects" class="main-btn">View My Work</a>
-				<div class="social-icons">
-					<a
-						href="https://www.facebook.com/profile.php?id=100047872413747"
-						target="_blank"
-						><i class="fa-brands fa-facebook"></i
-					></a>
-					<a
-						href="https://www.linkedin.com/in/ahmed-mohamed-828074246/"
-						target="_blank"
-						><i class="fa-brands fa-linkedin"></i
-					></a>
-					<a href="https://github.com/ahmedMOsamy" target="_blank"
-						><i class="fa-brands fa-github"></i
-					></a>
-				</div>
-			</div>
-		</section>
+
+		<script src="main.js"></script>
 	</body>
 </html>
