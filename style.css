@@ -25,16 +25,17 @@
 } */
 
 .nav {
-	color: rgb(231, 87, 87);
-	margin: 30;
-	font-size: 1.5em;
-	font-weight: 500;
-	padding-left: 40px;
+	padding: 5rem;
+	display: grid;
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: 1fr 2fr;
+	gap: 0.7rem;
 }
+
 span {
 	position: relative;
 	bottom: 5px;
-  }
+}
 
 .main2 {
 	font-size: large;
@@ -78,12 +79,30 @@ span {
 /* #hello {
 	position: fixed;
 } */
-input[type="range"] {
+input[type='range'] {
 	width: 50%;
-  }
+}
+input[type='button'] {
+	background-color: red;
+	border: none;
+	color: white;
+	font-weight: bold;
+	padding: 6px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+input[type='reset'] {
+	background-color: red;
+	border: none;
+	color: white;
+	font-weight: bold;
+	padding: 6px;
+	border-radius: 4px;
+	cursor: pointer;
+}
 .main {
 	width: 100%;
-	min-height: 30vh;
+	min-height: 5vh;
 	display: flex;
 	text-align: center;
 	align-items: center;
